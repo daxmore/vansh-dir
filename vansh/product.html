@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Entry Form</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        label{
+            margin-top: 1rem;
+        }
+
+        .btn{
+            width: 10%;
+        }
+        .footer{
+            display: flex;
+            justify-content: center;
+            margin-top: 5.6rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h2 class="text-light">Product Entry</h2>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <a class="nav-link text-light mr-2" href="index5.html">Home</a>
+                <a class="nav-link text-light mr-2" href="product.html">Product Entry</a>             
+                <a class="nav-link text-light mr-2" href="details.html">Details</a>             
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h2 class="text-center">Details:</h2>
+        <form>
+            <div class="mb-3">
+                <label for="productName" class="form-label">Product Name:</label>
+                <input type="text" class="form-control" id="productName" placeholder="ProductName" required>
+
+                <label for="productCategory" class="form-label">Category:</label>
+                <input type="text" class="form-control" id="productCategory" placeholder="Category" required>
+
+                <label for="productPrice" class="form-label">Price:</label>
+                <input type="number" class="form-control" id="productPrice" placeholder="Price" required>
+
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+    </div>
+
+    <footer class="footer bg-dark text-light">
+        <div class="foot text-center p-3">
+            © 2020 Copyright:
+            <a class="text-body text-light" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .navbar-brand{
+            font-size: 1.7rem;
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            border: none;
+            margin-top: 6rem;
+        }
+
+        label{
+            margin-top: 1.5rem;
+        }
+
+        .footer{
+            display: flex;
+            justify-content: center;
+            margin-top: 7.5rem;
+        }
+    </style>
+</head>
+
+<body>
+     
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Employee System</a>
+        <ul class="navbar-nav ml-auto">
+            <a class="nav-link text-light mr-2" href="index8.html">Home</a>
+            <a class="nav-link text-light mr-2" href="login1.html">Login</a>
+            <a class="nav-link text-light mr-2" href="qualification.html">Qualification</a>
+        </ul>
+    </nav>
+
+    <div class="card">
+        <form class="w-50">
+            <h1 class="h3 font-weight-normal">Please! Sign in</h1>
+            <label for="inputEmail">Email address</label>
+            <input type="email" class="form-control" placeholder="Email address" required="">
+            <label for="inputPassword">Password</label>
+            <input type="password" class="form-control" placeholder="Password" required>
+            <label for="inputPassword">Confirm Password</label>
+            <input type="password" class="form-control" placeholder="Confirm Password" required>
+            <div class="checkbox mb-3">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+            <button type="submit" class="btn btn-dark w-25" id="Button">Login</button>
+        </form>
+    </div>
+
+    <footer class="footer bg-dark text-light">
+        <div class="foot text-center p-3">
+            © 2020 Copyright:
+            <a class="text-body text-light" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 3rem;
+            text-align: center;
+            color: #333;
+        }
+
+        h2 {
+            margin-left: 3rem;
+            color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>My Image Gallery</h1>
+    <h2>Gallery1:</h2>
+    <div class="gallery">
+        <img src="img1car.avif" alt="Image 2">
+        <img src="img1car.avif" alt="Image 4">
+        <img src="img1car.avif" alt="Image 5">
+        <img src="img1car.avif" alt="Image 6">
+        <img src="img1car.avif" alt="Image 2">
+        <img src="img1car.avif" alt="Image 4">
+        <img src="img1car.avif" alt="Image 5">
+        <img src="imgfo.avif" alt="Image 6">
+        <img src="imgfo.avif" alt="Image 2">
+        <img src="imgfo.avif" alt="Image 4">
+        <img src="imgfo.avif" alt="Image 5">
+        <img src="imgfo.avif" alt="Image 6">
+        <img src="imgfo.avif" alt="Image 2">
+    </div>
+
+    <h2>Nature:</h2>
+    <div class="gallery">
+        <img src="tree.avif" alt="">
+        <img src="tree.avif" alt="">
+        <img src="tree.avif" alt="">
+        <img src="tree.avif" alt="">
+        <img src="tree.avif" alt="">
+        <img src="tree.avif" alt="">
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Ticket Details</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;            
+        }
+
+        .navbar-brand {
+            font-size: 1.7rem;
+        }
+
+        img {
+            height: 16rem;
+            width: 14rem;
+            margin: 1.5rem;
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            flex-direction: row;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Welcome to Online Movie Ticket Booking</a>
+        <ul class="navbar-nav ml-auto">
+            <a class="nav-link text-light mr-2" href="index6.html">Home</a>
+            <a class="nav-link text-light mr-2" href="#">My Bookings</a>
+        </ul>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center"></h1>
+        <div class="card mt-4">
+            <img src="img/kgf.jpg" alt="Movie Poster">
+            <div class="card-body">
+                <h5 class="card-title">KGF Chapter 2</h5>
+                <p class="card-text">Cast: Rocikng Star Yash, Prakash Raj, Ramika Sen</p>
+                <p class="card-text">Ratings: 4.9/5</p>
+                <p class="card-text">Type: Thriller/Action</p>
+                <p class="card-text">Time: 2h 44m</p>
+                <a href="movie-details.html" class="btn btn-dark">View Details & Book</a>
+            </div>
+        </div>
+        <div class="card mt-4">
+            <img src="img/leo.jpg" alt="Movie Poster">
+            <div class="card-body">
+                <h5 class="card-title">LEO</h5>
+                <p class="card-text">Cast: Thalapathy Vijay</p>
+                <p class="card-text">Ratings: 4.5/5</p>
+                <p class="card-text">Type: Thriller/Action</p>
+                <p class="card-text">Time: 2h 55m</p>
+                <a href="movie-details.html" class="btn btn-dark">View Details & Book</a>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer bg-dark text-light">
+        <div class="foot text-center p-3">
+            © 2020 Copyright:
+            <a class="text-body text-light" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>

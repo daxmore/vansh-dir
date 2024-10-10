@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qualification Details</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            height: 100%;
+            width: 100%;
+        }
+
+        .navbar-brand {
+            font-size: 1.7rem;
+        }
+
+        label {
+            margin-top: 1rem;
+        }
+
+        .btn {
+            width: 15%;
+        }
+
+        .footer{
+            display: flex;
+            justify-content: center;
+            margin-top: 4.5rem;            
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Employee System</a>
+        <ul class="navbar-nav ml-auto">
+            <a class="nav-link text-light mr-2" href="index8.html">Home</a>
+            <a class="nav-link text-light mr-2" href="login1.html">Login</a>
+            <a class="nav-link text-light mr-2" href="qualification.html">Qualification</a>
+        </ul>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="">
+            <h2 class="text-center">Qualification Details</h2>
+            <form>
+                <div class="form-group">
+                    <label for="qualification">Highest Qualification:</label>
+                    <input type="text" class="form-control" placeholder="e.g., Bachelor's, Master's" required>
+
+                    <label for="institution">Institution Name:</label>
+                    <input type="text" class="form-control" placeholder="Enter your institution name" required>
+
+                    <label for="year-of-passing">Year of Passing:</label>
+                    <input type="number" class="form-control" placeholder="Enter year of passing" required>
+
+                    <label for="specialization">Specialization:</label>
+                    <input type="text" class="form-control" placeholder="Enter your specialization" required>
+
+                    <label for="grade">Grade/Percentage:</label>
+                    <input type="text" class="form-control" placeholder="Enter your grade/percentage" required>
+                </div>
+                <button type="submit" class="btn btn-dark">Submit</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer bg-dark text-light">
+        <div class="foot text-center p-3">
+            © 2020 Copyright:
+            <a class="text-body text-light" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
